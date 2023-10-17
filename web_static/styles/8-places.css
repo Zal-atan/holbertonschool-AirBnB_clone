@@ -14,7 +14,7 @@
     display: flex;
     flex-flow: row wrap;
     align-items: flex-start;
-    justify-content: center;
+    margin-bottom: 20px;
 }
 
 .places h1 {
@@ -54,7 +54,7 @@
     flex-direction: row;
     width: 100%;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     text-align: center;
 }
 
@@ -64,6 +64,7 @@
     width: 100px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 35px;
 }
 
 .number_rooms {
@@ -71,6 +72,7 @@
     width: 100px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 35px;
 }
 
 .number_bathrooms {
@@ -78,6 +80,7 @@
     width: 100px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 35px;
 }
 
 .guest_icon {
@@ -104,4 +107,9 @@
 
 .user {
     margin: 10px 0 0;
+    justify-content: left;
+}
+
+.description {
+    text-align: left;
 }
