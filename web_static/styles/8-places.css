@@ -13,19 +13,22 @@
     text-align: center;
     display: flex;
     flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .places h1 {
     font-size: 30px;
     flex-basis: 100%;
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 
 .places article h2 {
     font-size: 30px;
-    margin: 0;
-    padding-bottom: 1rem;
-
+    text-align: center;
+    width: 75%;
+    margin-top: 0;
+    margin-left: auto;
 }
 
 .price_by_night {
@@ -38,6 +41,8 @@
     text-align: center;
     display: flex;
     line-height: 10px;
+    margin-left: auto;
+    margin-top: -10px;
 }
 
 .information {
@@ -45,9 +50,12 @@
     border-top: #DDDDDD 1px solid;
     border-bottom: #DDDDDD 1px solid;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: row;
     width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 
@@ -76,20 +84,24 @@
     background-image: url('../images/icon_group.png');
     background-repeat: no-repeat;
     min-height: 100%;
+    background-position: center top;
 }
 
 .bed_icon {
     background-image: url('../images/icon_bed.png');
     background-repeat: no-repeat;
     min-height: 100%;
+    margin: 0;
+    background-position: center top;
 }
 
 .bath_icon {
     background-image: url('../images/icon_bath.png');
     background-repeat: no-repeat;
     min-height: 100%;
+    background-position: center top;
 }
 
 .user {
-    margin: 10px 0;
+    margin: 10px 0 0;
 }
