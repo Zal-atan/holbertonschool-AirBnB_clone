@@ -45,3 +45,25 @@
     font-size: 14px;
     margin: .1rem auto 1rem 2rem;
 }
+
+.popover {
+    list-style-type: none;
+    display: none;
+    background-color: #fafafa;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    padding: 15%;
+}
+
+.popover h2 {
+    margin-bottom: 5px;
+    font-size: 16;
+}
+
+.locations:hover .popover {
+    display: block;
+}
+
+.amenities:hover .popover {
+    display: block;
+}
